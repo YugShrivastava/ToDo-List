@@ -1,9 +1,9 @@
 import "../styles/allSidebarContent.css";
 
 const sidebarContentDiv = document.querySelector(".sidebarContent");
-const addTask = document.createElement("div");
-addTask.classList.add("add-task");
-addTask.innerHTML = `
+export const addTaskDiv = document.createElement("div");
+addTaskDiv.classList.add("add-task");
+addTaskDiv.innerHTML = `
                         <svg
                             id="add-task"
                             viewBox="0 0 24 24"
@@ -98,6 +98,6 @@ sideContents.appendChild(upcoming);
 sideContents.appendChild(filters);
 
 export default function sidebarContent() {
-    sidebarContentDiv.appendChild(addTask);
+    sidebarContentDiv.appendChild(addTaskDiv);
     sidebarContentDiv.appendChild(sideContents);
 }
