@@ -18,7 +18,7 @@
     padding-left: min(10vw, 200px);
 }
 
-/* chatGPT code */
+/* Theme */
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #FAFAFA;
@@ -69,5 +69,4 @@ body {
     margin-bottom: 20px;
   }  
 
-/* End of chatGPT code */
-
+/* End of Theme */

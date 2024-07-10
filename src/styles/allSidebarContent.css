@@ -1,0 +1,40 @@
+
+/* All sidebar contents */
+
+/* Add Task */
+
+.add-task{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#add-task{
+    width: 35px;
+    height: auto;
+}
+
+/* End of Add Task */
+
+.sideContents{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: auto;
+    gap: 7px;
+}
+
+.sideContent{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+}
+
+.svg{
+    width: 25px;
+    height: auto;
+}
+
+
+/* End of All sidebar contents */
