@@ -1,3 +1,73 @@
 *{
     margin: 0px;
 }
+
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar{
+    padding: 40px 20px;
+}
+
+.main-content{
+    padding-top: 40px;
+    padding-left: min(10vw, 200px);
+}
+
+/* chatGPT code */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+    color: #2E2E2E;
+  }
+  
+  .sidebar {
+    background-color: #ECECEC;
+    color: #2E2E2E;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .main-content {
+    background-color: #FAFAFA;
+    color: #2E2E2E;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a {
+    color: #1C7C54;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2AA876;
+  }
+
+  button {
+    background-color: #1C7C54;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #2AA876;
+  }
+  
+  .sidebar .header {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    color: #2E2E2E;
+  }
+  
+  .sidebar .section {
+    margin-bottom: 20px;
+  }  
+
+/* End of chatGPT code */
+
