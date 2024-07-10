@@ -1,72 +1,72 @@
-*{
+* {
     margin: 0px;
 }
 
-#wrapper{
+#wrapper {
     width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 4fr;
 }
 
-.sidebar{
-    padding: 40px 20px;
+.sidebar {
+    padding: 0px 20px;
 }
 
-.main-content{
-    padding-top: 40px;
+.main-content {
+    padding-top: 20px;
     padding-left: min(10vw, 200px);
 }
 
 /* Theme */
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #FAFAFA;
-    color: #2E2E2E;
-  }
-  
-  .sidebar {
-    background-color: #ECECEC;
-    color: #2E2E2E;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .main-content {
-    background-color: #FAFAFA;
-    color: #2E2E2E;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  a {
-    color: #1C7C54;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: #2AA876;
-  }
+    font-family: "Montserrat", sans-serif;
+    background-color: #fafafa;
+    color: #2e2e2e;
+}
 
-  button {
-    background-color: #1C7C54;
-    color: #FFFFFF;
+.sidebar {
+    background-color: #ececec;
+    color: #2e2e2e;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-content {
+    background-color: #fafafa;
+    color: #2e2e2e;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    color: #1c7c54;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2aa876;
+}
+
+button {
+    background-color: #1c7c54;
+    color: #ffffff;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  button:hover {
-    background-color: #2AA876;
-  }
-  
-  .sidebar .header {
-    font-family: 'Merriweather', serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+    background-color: #2aa876;
+}
+
+.sidebar .header {
+    font-family: "Merriweather", serif;
     font-size: 1.5em;
-    color: #2E2E2E;
-  }
-  
-  .sidebar .section {
+    color: #2e2e2e;
+}
+
+.sidebar .section {
     margin-bottom: 20px;
-  }  
+}
 
 /* End of Theme */
