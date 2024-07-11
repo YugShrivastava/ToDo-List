@@ -1,6 +1,5 @@
-import "./styles/style.css";
-import sidebarUpper from "./scripts/sidebarDisplay.js";
-import sideLower from "./scripts/sideLower.js";
-import addTask from "./scripts/addTask.js";
+import "./style.css";
+import omniMan from "./images/omni.jpg";
 
-sidebarUpper();
+const userLogo = document.querySelector("#user-logo");
+userLogo.src = omniMan;

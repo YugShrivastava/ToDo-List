@@ -1,0 +1,227 @@
+* {
+    margin: 0px;
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sidebar {
+    padding: 0px 20px;
+    max-width: 300px;
+}
+
+.main-content {
+    padding-top: 20px;
+    padding-left: min(10vw, 200px);
+}
+
+/* Theme */
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fafafa;
+    color: #2e2e2e;
+}
+
+.sidebar {
+    background-color: #ececec;
+    color: #2e2e2e;
+    font-family: "Montserrat", sans-serif;
+}
+
+.main-content {
+    background-color: #fafafa;
+    color: #2e2e2e;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    color: #1c7c54;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2aa876;
+}
+
+button {
+    background-color: #1c7c54;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+button:hover {
+    background-color: #2aa876;
+}
+
+.sidebar .header {
+    font-family: "Merriweather", serif;
+    font-size: 1.5em;
+    color: #2e2e2e;
+}
+
+.sidebar .section {
+    margin-bottom: 20px;
+}
+
+/* End of Theme */
+
+/* User Profile */
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 20px 0px;
+}
+
+#user-name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#user-logo {
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+}
+
+#user-noti {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+#bell-noti {
+    width: 18px;
+    height: auto;
+}
+#dropdown-arrow {
+    width: 18px;
+    height: auto;
+}
+/* End User Profile */
+
+/* Sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.sideLower {
+    width: 100%;
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sideLower div {
+    display: flex;
+    gap: 2px;
+    padding-right: 5px;
+}
+
+.mysvg {
+    width: 19px;
+    height: auto;
+}
+
+/* hover section */
+
+#bell-noti:hover,
+.add-task:hover,
+.sideContent:hover,
+.mysvg:hover {
+    background-color: hsl(0, 0%, 85%);
+    border-radius: 12px;
+}
+
+/* End of hover section */
+#bell-noti,
+.add-task,
+.sideContent,
+.mysvg {
+    cursor: pointer;
+}
+/* pointer section */
+
+/* end of pointer section */
+
+/* End of Side Bar */
+
+/* All sidebar contents */
+
+/* Add Task */
+
+.add-task {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#add-task {
+    width: 35px;
+    height: auto;
+}
+
+/* End of Add Task */
+
+.sideContent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.svg {
+    width: 25px;
+    height: auto;
+}
+
+.sideUpper {
+    margin: 0px;
+    align-self: self-start;
+    padding-top: 20px;
+}
+
+/* End of All sidebar contents */
+
+/* Main Content style */
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1.15fr 0.85fr;
+    grid-template-rows: 1.25fr 0.75fr;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.projectDisplay,
+.taskDetails,
+.stickyNotes {
+    border: 1px solid black;
+}
+
+.projectDisplay {
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+}
+.taskDetails {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+}
+.stickyNotes {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
