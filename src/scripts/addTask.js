@@ -12,7 +12,14 @@ function clearAddTaskDialog() {
     document.querySelector("#high").checked = false;
     document.querySelector("#medium").checked = false;
     document.querySelector("#low").checked = false;
+}
 
+function submitAddTaskDialog(){
+    //Code For Submit Button in the task-dialog
+}
+
+function resetAddTaskDialog(){
+    //Code For Reset Button in the task-dialog
 }
 
 const taskDialog = document.createElement("dialog");
