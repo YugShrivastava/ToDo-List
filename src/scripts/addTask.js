@@ -69,17 +69,17 @@ taskDialog.innerHTML = `<form action="" id="task-form">
                         >
                         <div>
                             <div>
-                                <input type="radio" name="priority" id="high" value="off"/><label
+                                <input type="radio" name="priority" id="high" value="high"/><label
                                     for="high"
                                 >High</label>
                             </div>
                             <div>
-                                <input type="radio" name="priority" id="medium" value="off" /><label
+                                <input type="radio" name="priority" id="medium" value="medium"/><label
                                     for="medium"
                                 >Medium</label>
                             </div>
                             <div>
-                                <input type="radio" name="priority" id="low" value="off" /><label
+                                <input type="radio" name="priority" id="low" value="low"/><label
                                     for="low"
                                 >Low</label>
                             </div>
