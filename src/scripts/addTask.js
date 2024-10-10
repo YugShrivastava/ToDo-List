@@ -1,6 +1,6 @@
 const addTaskButton = document.querySelector(".add-task");
 
-function clearValue(tag){
+function clearValue(tag) {
     tag.value = "";
 }
 
@@ -14,11 +14,11 @@ function clearAddTaskDialog() {
     document.querySelector("#low").checked = false;
 }
 
-function submitAddTaskDialog(){
+function submitAddTaskDialog() {
     //Code For Submit Button in the task-dialog
 }
 
-function resetAddTaskDialog(){
+function resetAddTaskDialog() {
     //Code For Reset Button in the task-dialog
 }
 
@@ -52,6 +52,9 @@ taskDialog.innerHTML = `<form action="" id="task-form">
                             id="task-due-date"
                         />
                     </div>
+                    <div>
+                        <button type="reset">Reset</button>
+                    </div>
                 </div>
                 <div class="right-task-dialog">
                     <div id="project-div">
@@ -66,17 +69,17 @@ taskDialog.innerHTML = `<form action="" id="task-form">
                         >
                         <div>
                             <div>
-                                <input type="radio" name="priority" id="high" /><label
+                                <input type="radio" name="priority" id="high" value="off"/><label
                                     for="high"
                                 >High</label>
                             </div>
                             <div>
-                                <input type="radio" name="priority" id="medium" /><label
+                                <input type="radio" name="priority" id="medium" value="off" /><label
                                     for="medium"
                                 >Medium</label>
                             </div>
                             <div>
-                                <input type="radio" name="priority" id="low" /><label
+                                <input type="radio" name="priority" id="low" value="off" /><label
                                     for="low"
                                 >Low</label>
                             </div>
@@ -86,6 +89,9 @@ taskDialog.innerHTML = `<form action="" id="task-form">
                     <div id="notes-div">
                         <label class="task-label" for="">Notes</label
                         ><textarea name="notes" id="task-notes" placeholder="Notes for the task"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" id="task-add-btn">Add</button>
                     </div>
                 </div>
             </form>
